@@ -60,7 +60,7 @@ class Login extends React.Component {
       <Grid textAlign="center" verticalAlign="middle" className="app">
         <Grid.Column style={{ maxWidth: 450 }}>
           <Header as="h1" icon color="violet" textAlign="center">
-            Login to Project ChatApp
+            Login to Project ChatApp 
           </Header>
           <Form onSubmit={this.handleSubmit} size="large">
             <Segment stacked>
