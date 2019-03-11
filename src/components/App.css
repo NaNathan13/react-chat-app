@@ -10,6 +10,7 @@ body,
 .messages {
   height: 440px;
   overflow-y: scroll;
+  left: 0;
 }
 
 /* MessageForm.js */
@@ -22,7 +23,7 @@ body,
   z-index: 200;
 }
 
-/* Messages */
+/* Message */
 
 .message__self {
   border-left: 2px solid orange;

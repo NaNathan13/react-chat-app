@@ -6,8 +6,7 @@ import {
   Segment,
   Button,
   Header,
-  Message,
-  Icon
+  Message
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
@@ -61,16 +60,13 @@ class Login extends React.Component {
       <Grid textAlign="center" verticalAlign="middle" className="app">
         <Grid.Column style={{ maxWidth: 450 }}>
           <Header as="h1" icon color="violet" textAlign="center">
-            <Icon name="code branch" color="violet" />
-            Login to DevChat
+            Login to Project ChatApp
           </Header>
           <Form onSubmit={this.handleSubmit} size="large">
             <Segment stacked>
               <Form.Input
                 fluid
                 name="email"
-                icon="mail"
-                iconPosition="left"
                 placeholder="Email Address"
                 onChange={this.handleChange}
                 value={email}

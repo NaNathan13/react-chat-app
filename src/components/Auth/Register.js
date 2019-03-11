@@ -7,8 +7,7 @@ import {
   Segment,
   Button,
   Header,
-  Message,
-  Icon
+  Message
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
@@ -132,8 +131,7 @@ class Register extends React.Component {
       <Grid textAlign="center" verticalAlign="middle" className="app">
         <Grid.Column style={{ maxWidth: 450 }}>
           <Header as="h1" icon color="orange" textAlign="center">
-            <Icon name="puzzle piece" color="orange" />
-            Register for DevChat
+            Register for Project ChatApp
           </Header>
           <Form onSubmit={this.handleSubmit} size="large">
             <Segment stacked>
